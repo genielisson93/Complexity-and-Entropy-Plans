@@ -6,7 +6,7 @@ import pandas as pd  # Imports Pandas for handling data tables
 import matplotlib.pyplot as plt  # Imports Matplotlib for generating graphs
 
 
-# Function to calculate Shannon entropy (or permutation entropy)
+# Function to calculate Shannon entropy
 def shannon_entropy(data, k, normalized=True):
     """
     Computes Shannon entropy for a set of probabilities.
