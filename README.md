@@ -19,7 +19,7 @@ Cada etapa possui scripts específicos para gerar tabelas de frequências, distr
 ## 🔹 1. Full Sequence Data
 
 ### 1.1 Obter tabelas de frequências de *k*-mers
-Usar o script ```bash Frequency_Count_of_k-mers.ipynb``` para gerar as tabelas de frequências de *k*-mers para cada genoma completo:
+Usar o script ```Frequency_Count_of_k-mers.ipynb``` para gerar as tabelas de frequências de *k*-mers para cada genoma completo:
 
-Entrada: Arquivos da pasta ```bashComplete_Sequences```
+Entrada: Arquivos da pasta ```Complete_Sequences```
 
