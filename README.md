@@ -18,7 +18,7 @@ Each step contains specific scripts to generate frequency tables, probability di
 
 ## 1. Full Sequence Data
 
-### 1.1 Obter tabelas de frequências de *k*-mers
+### 1.1 Get k-mer frequency tables
 
 Use the script ```Frequency_Count_of_k-mers.ipynb``` to generate k-mer frequency tables for each complete genome.
 
