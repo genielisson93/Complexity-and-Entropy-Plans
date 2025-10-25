@@ -1,87 +1,84 @@
-# Análise de Sequências Genômicas de Espécies de Coronavírus Humanos
-## Utilizando o Plano Complexidade–Entropia
+# Genomic Sequence Analysis of Human Coronavirus Species
+## Using the Complexity–Entropy Plane
 
-Este repositório contém os scripts e dados utilizados para analisar as sequências genômicas completas e proteínas Spike de diferentes espécies de **coronavírus humanos**, com base na relação entre **complexidade** e **entropia**.
+This repository contains the scripts and data used to analyze the complete genomic sequences and Spike proteins of different human coronavirus species, based on the relationship between complexity and entropy.
 
 ---
 
-## Estrutura do Roteiro
+## Structure of the Workflow
 
-O fluxo de análise está dividido em duas etapas principais:
+The analysis workflow is divided into two main steps:
 
 1. **Full Sequence Data**
 2. **Spike Protein Data**
 
-Cada etapa possui scripts específicos para gerar tabelas de frequências, distribuições de probabilidades, gráficos de barras e planos de Complexidade–Entropia.
+Each step contains specific scripts to generate frequency tables, probability distributions, bar charts, and Complexity–Entropy plane plots.
 
 ---
 
 ## 1. Full Sequence Data
 
 ### 1.1 Obter tabelas de frequências de *k*-mers
-Usar o script ```Frequency_Count_of_k-mers.ipynb``` para gerar as tabelas de frequências de *k*-mers para cada genoma completo.
 
-Entrada: arquivos da pasta ```Complete_Sequences```
+Use the script ```Frequency_Count_of_k-mers.ipynb``` to generate k-mer frequency tables for each complete genome.
 
-Saída: tabelas de frequências de k-mers para cada sequência genômica.
+Input: files from the folder ```Complete_Sequences```.
 
-
-### 1.2 Obter tabelas de distribuição de probabilidades normalizadas 
-
-Usar o script ```Normalization_k-mer_Counts.ipynb``` para Calcular as distribuições de probabilidade normalizadas.
-
-Entrada: arquivos da pasta ```Frequencies of k-mers```.
-
-Saída: tabelas contendo distribuições de probabilidades normalizadas para cada sequência genômica.
+Output: k-mer frequency tables for each genomic sequence.
 
 
+### 1.2 Obtain normalized probability distribution tables
 
-### 1.3 Obter gráficos de barras das probabilidades versus códons 
+Use the script ```Normalization_k-mer_Counts.ipynb``` to calculate the normalized probability distributions.
 
-Usar o script ```Bar_Chart_Distribution.ipynb``` para gerar gráficos de barras mostrando as probabilidades de ocorrência de cada códon.
+Input: files from the folder ```Frequencies of k-mers```.
 
-Entrada: arquivos da pasta ```Probability Distributions```.
-
-Saída: painel contendo gráficos de barras.
+Output: tables containing normalized probability distributions for each genomic sequence.
 
 
 
-### 1.4 Obter planos de Complexidade–Entropia
+### 1.3 Obtain bar charts of probabilities versus codons
 
-Usar os scripts ```Shannon_Complexity-Entropy.ipynb```, ```Tsallis_Complexity-Entropy.ipynb``` e ```Renyi_Complexity-Entropy.ipynb``` para gerar planos Complexidade-Entropia.
+Use the script ```Bar_Chart_Distribution.ipynb``` to generate bar charts showing the occurrence probabilities of each codon.
+
+Input: files from the folder ```Probability Distributions```.
+
+Output: panel containing bar charts.
 
 
-Entrada: arquivos da pasta ```Probability Distributions```.
+### 1.4 Obtain Complexity–Entropy planes
 
-Saída: plano Complexidade-Entropia para as entropias de Shannon, Tsallis e Rényi.
+Use the script ```Shannon_Complexity-Entropy.ipynb```, ```Tsallis_Complexity-Entropy.ipynb``` and ```Renyi_Complexity-Entropy.ipynb``` to generate Complexity–Entropy planes.
+
+Input: files from the folder ```Probability Distributions```.
+
+Output: Complexity–Entropy plane for Shannon, Tsallis, and Rényi entropies.
 
 
 
 ## 2. Spike Protein Data
 
-### 2.1 Obter tabelas de frequências de aminoácidos e distribuições de probabilidade
+### 2.1 Obtain amino acid frequency tables and probability distributions
 
-Usar o script ```Generate AminoAcid Freq and Probability Dist.ipynb``` para gerar tabelas de contagem de aminoácidos das proteínas e probabilidades normalizadas.
+Use the script ```Generate AminoAcid Freq and Probability Dist.ipynb``` to generate amino acid count tables for the proteins and normalized probabilities.
 
-Entrada: arquivos da pasta ```Sequences Spike Protein```. 
+Input: files from the folder ```Sequences Spike Protein```. 
 
-Saída: tabelas de frequências e distribuições de probabilidades para cada sequência.
-
-
-### 2.2 Obter gráficos de barras das probabilidades versus aminoácidos
-
-Usar o script ```Distribution_Bar_Chart.ipynb``` para criar o painel com os gráficos de barras das probabilidades versus aminoácidos:
-
-Entrada: arquivos da pasta ```Probability Distributions```.
-
-Saída: painel contendo gráficos de barras.
+Output: frequency tables and probability distributions for each sequence.
 
 
+### 2.2 Obtain bar charts of probabilities versus amino acids
 
-### 2.3 Obter planos de Complexidade–Entropia
+Use the script ```Distribution_Bar_Chart.ipynb``` para criar o painel com os gráficos de barras das probabilidades versus aminoácidos:
 
-Usar os scripts ```Shannon_Complexity-Entropy.ipynb```, ```Tsallis_Complexity-Entropy.ipynb``` e ```Renyi_Complexity-Entropy.ipynb``` para gerar planos de Complexidade–Entropia das proteínas Spike.
+Input: files from the folder ```Probability Distributions```.
 
-Entrada: arquivos da pasta ```Probability Distributions```.
+Output: panel containing bar charts.
 
-Saída: plano Complexidade-Entropia para as entropias de Shannon, Tsallis e Rényi.
+
+### 2.3 Obtain Complexity–Entropy planes
+Use the scripts ```Shannon_Complexity-Entropy.ipynb```, ```Tsallis_Complexity-Entropy.ipynb``` and ```Renyi_Complexity-Entropy.ipynb``` to generate Complexity–Entropy planes of the Spike proteins.
+
+Input: files from the folder ```Probability Distributions```.
+
+Output: Complexity–Entropy plane for Shannon, Tsallis, and Rényi entropies.
