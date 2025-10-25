@@ -37,7 +37,7 @@ Entrada: arquivos da pasta ```Probability_Distributions```.
 
 ### 1.4 Obter planos de Complexidade–Entropia
 
-Gerar os planos usando diferentes definições de entropia (Shannon, Tsallis e Rényi), usando os scripts:
+Gerar os planos, para as definições de entropia de Shannon, Tsallis e Rényi, usando os scripts:
 
 ```Shannon_Complexity-Entropy.ipynb```
 ```Tsallis_Complexity-Entropy.ipynb```
