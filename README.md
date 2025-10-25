@@ -28,7 +28,7 @@ Saída: tabelas de frequências de k-mers para cada sequência genômica.
 
 ### 1.2 Obter tabelas de distribuição de probabilidades normalizadas 
 
-Calcular as distribuições de probabilidade normalizadas com o script ```Normalization_k-mer_Counts.ipynb```:
+Calcular as distribuições de probabilidade normalizadas com o script ```Normalization k-mer Counts.ipynb```:
 
 Entrada: arquivos da pasta ```Frequencies of k-mers```
 
