@@ -69,7 +69,7 @@ Output: frequency tables and probability distributions for each sequence.
 
 ### 2.2 Obtain bar charts of probabilities versus amino acids
 
-Use the script ```Distribution_Bar_Chart.ipynb``` para criar o painel com os gráficos de barras das probabilidades versus aminoácidos:
+Use the script ```Distribution_Bar_Chart.ipynb``` to create the dashboard with the bar graphs of probabilities versus amino acids.
 
 Input: files from the folder ```Probability Distributions```.
 
