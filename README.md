@@ -1,11 +1,11 @@
-# 🧬 Análise de Sequências Genômicas de Espécies de Coronavírus Humanos
+# Análise de Sequências Genômicas de Espécies de Coronavírus Humanos
 ## Utilizando o Plano Complexidade–Entropia
 
 Este repositório contém os scripts e dados utilizados para analisar as sequências genômicas completas e proteínas Spike de diferentes espécies de **coronavírus humanos**, com base na relação entre **complexidade** e **entropia**.
 
 ---
 
-## 📁 Estrutura do Roteiro
+## Estrutura do Roteiro
 
 O fluxo de análise está dividido em duas etapas principais:
 
@@ -24,4 +24,17 @@ Usar o script abaixo para gerar as tabelas de frequências de *k*-mers para cada
 ```bash
 Frequency_Count_of_k-mers.ipynb
 
+Arquivos de entrada:
+
+SARS-CoV-2
+
+MERS-CoV
+
+HCoV-229E
+
+HCoV-HKU1
+
+HCoV-NL63
+
+HCoV-OC43
 
