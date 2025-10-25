@@ -19,7 +19,7 @@ Cada etapa possui scripts específicos para gerar tabelas de frequências, distr
 ## 1. Full Sequence Data
 
 ### 1.1 Obter tabelas de frequências de *k*-mers
-Usar o script ```Frequency_Count_of_k-mers.ipynb``` para gerar as tabelas de frequências de *k*-mers para cada genoma completo:
+Usar o script ```Frequency_Count_of_k-mers.ipynb``` para gerar as tabelas de frequências de *k*-mers para cada genoma completo.
 
 Entrada: arquivos da pasta ```Complete_Sequences```
 
@@ -28,9 +28,9 @@ Saída: tabelas de frequências de k-mers para cada sequência genômica.
 
 ### 1.2 Obter tabelas de distribuição de probabilidades normalizadas 
 
-Calcular as distribuições de probabilidade normalizadas com o script ```Normalization_k-mer_Counts.ipynb```:
+Usar o script ```Normalization_k-mer_Counts.ipynb``` para Calcular as distribuições de probabilidade normalizadas.
 
-Entrada: arquivos da pasta ```Frequencies of k-mers```
+Entrada: arquivos da pasta ```Frequencies of k-mers```.
 
 Saída: tabelas contendo distribuições de probabilidades normalizadas para cada sequência genômica.
 
@@ -38,9 +38,9 @@ Saída: tabelas contendo distribuições de probabilidades normalizadas para cad
 
 ### 1.3 Obter gráficos de barras das probabilidades versus códons 
 
-Gerar gráficos de barras mostrando as probabilidades de ocorrência de cada códon usando o  script ```Bar_Chart_Distribution.ipynb```:
+Usar o script ```Bar_Chart_Distribution.ipynb``` para gerar gráficos de barras mostrando as probabilidades de ocorrência de cada códon.
 
-Entrada: arquivos da pasta ```Probability Distributions```
+Entrada: arquivos da pasta ```Probability Distributions```.
 
 Saída: painel contendo gráficos de barras.
 
@@ -48,16 +48,10 @@ Saída: painel contendo gráficos de barras.
 
 ### 1.4 Obter planos de Complexidade–Entropia
 
-Gerar os planos, para as definições de entropia de Shannon, Tsallis e Rényi, usando os scripts:
-
-```Shannon_Complexity-Entropy.ipynb```
-
-```Tsallis_Complexity-Entropy.ipynb```
-
-```Renyi_Complexity-Entropy.ipynb```
+Usar os scripts ```Shannon_Complexity-Entropy.ipynb```, ```Tsallis_Complexity-Entropy.ipynb``` é ```Renyi_Complexity-Entropy.ipynb``` para gerar planos Complexidade-Entropia.
 
 
-Entrada: arquivos da pasta ```Probability Distributions```
+Entrada: arquivos da pasta ```Probability Distributions```.
 
 Saída: plano Complexidade-Entropia para as entropias de Shannon, Tsallis e Rényi.
 
@@ -67,9 +61,9 @@ Saída: plano Complexidade-Entropia para as entropias de Shannon, Tsallis e Rén
 
 ### 2.1 Obter tabelas de frequências de aminoácidos e distribuições de probabilidade
 
-Gerar tabelas de contagem e probabilidades normalizadas dos aminoácidos das proteínas Spike usando o script ```Generate AminoAcid Freq and Probability Dist.ipynb```:
+Usar o script ```Generate AminoAcid Freq and Probability Dist.ipynb``` para gerar tabelas de contagem de aminoácidos das proteínas e probabilidades normalizadas.
 
-Entrad: arquivos da pasta ```Sequences Spike Protein```
+Entrada: arquivos da pasta ```Sequences Spike Protein```. 
 
 Saída: tabelas de frequências e distribuições de probabilidades para cada sequência.
 
@@ -78,7 +72,7 @@ Saída: tabelas de frequências e distribuições de probabilidades para cada se
 
 Usar o script ```Distribution_Bar_Chart.ipynb``` para criar o painel com os gráficos de barras das probabilidades versus aminoácidos:
 
-Entrada: arquivos da pasta ```Probability Distributions```
+Entrada: arquivos da pasta ```Probability Distributions```.
 
 Saída: painel contendo gráficos de barras.
 
@@ -86,15 +80,8 @@ Saída: painel contendo gráficos de barras.
 
 ### 2.3 Obter planos de Complexidade–Entropia
 
-Calcular e visualizar os planos de Complexidade–Entropia das proteínas Spike, usando os scripts:
+Usar os scripts ```Shannon_Complexity-Entropy.ipynb```, ```Tsallis_Complexity-Entropy.ipynb``` é ```Renyi_Complexity-Entropy.ipynb``` para gerar planos de Complexidade–Entropia das proteínas Spike.
 
-```Shannon_Complexity-Entropy.ipynb```
-
-```Tsallis_Complexity-Entropy.ipynb```
-
-```Renyi_Complexity-Entropy.ipynb```
-
-
-Entrada: arquivos da pasta ```Probability Distributions```
+Entrada: arquivos da pasta ```Probability Distributions```.
 
 Saída: plano Complexidade-Entropia para as entropias de Shannon, Tsallis e Rényi.
