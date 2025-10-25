@@ -51,14 +51,12 @@ Saída: painel contendo gráficos de barras.
 Gerar os planos, para as definições de entropia de Shannon, Tsallis e Rényi, usando os scripts:
 
 ```Shannon_Complexity-Entropy.ipynb```
-
 ```Tsallis_Complexity-Entropy.ipynb```
-
 ```Renyi_Complexity-Entropy.ipynb```
 
 Entrada: arquivos da pasta ```Probability Distributions```
 
-Saída: plano complexidade-entropia para as entropias de Shannon, Tsallis e Rényi.
+Saída: plano Complexidade-Entropia para as entropias de Shannon, Tsallis e Rényi.
 
 
 
@@ -88,11 +86,9 @@ Saída: painel contendo gráficos de barras.
 Calcular e visualizar os planos de Complexidade–Entropia das proteínas Spike, usando os scripts:
 
 ```Shannon_Complexity-Entropy.ipynb```
-
 ```Tsallis_Complexity-Entropy.ipynb```
-
 ```Renyi_Complexity-Entropy.ipynb```
 
 Entrada: arquivos da pasta ```Probability Distributions```
 
-Saída: plano complexidade-entropia para as entropias de Shannon, Tsallis e Rényi.
+Saída: plano Complexidade-Entropia para as entropias de Shannon, Tsallis e Rényi.
