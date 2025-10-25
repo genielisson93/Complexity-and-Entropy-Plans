@@ -21,19 +21,25 @@ Cada etapa possui scripts específicos para gerar tabelas de frequências, distr
 ### 1.1 Obter tabelas de frequências de *k*-mers
 Usar o script ```Frequency_Count_of_k-mers.ipynb``` para gerar as tabelas de frequências de *k*-mers para cada genoma completo:
 
-Entrada: arquivos da pasta ```Complete_Sequences```.
+Entrada: arquivos da pasta ```Complete_Sequences```
+Saída: tabelas de frequências de k-mers para cada sequência genômica.
+
 
 ### 1.2 Obter tabelas de distribuição de probabilidades normalizadas 
 
 Calcular as distribuições de probabilidade normalizadas com o script ```Normalization_k-mer_Counts.ipynb```:
 
-Entrada: arquivos da pasta ```Frequencies_of_k-mers```.
+Entrada: arquivos da pasta ```Frequencies_of_k-mers```
+Saída: tabelas contendo distribuições de probabilidades normalizadas para cada sequência genômica.
+
 
 ### 1.3 Obter gráficos de barras das probabilidades versus códons 
 
 Gerar gráficos de barras mostrando as probabilidades de ocorrência de cada códon usando o  script ```Bar_Chart_Distribution.ipynb```:
 
-Entrada: arquivos da pasta ```Probability_Distributions```.
+Entrada: arquivos da pasta ```Probability_Distributions```
+Saída: painel contendo gráficos de barras.
+
 
 ### 1.4 Obter planos de Complexidade–Entropia
 
@@ -43,5 +49,8 @@ Gerar os planos, para as definições de entropia de Shannon, Tsallis e Rényi, 
 ```Tsallis_Complexity-Entropy.ipynb```
 ```Renyi_Complexity-Entropy.ipynb```
 
-Entrada: arquivos da pasta ```Probability_Distributions```.
+Entrada: arquivos da pasta ```Probability_Distributions```
+Saída: plano complexidade-entropia para as entropias de Shannon, Tsallis e Rényi.
+
+
 
