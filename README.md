@@ -48,7 +48,7 @@ Saída: painel contendo gráficos de barras.
 
 ### 1.4 Obter planos de Complexidade–Entropia
 
-Usar os scripts ```Shannon_Complexity-Entropy.ipynb```, ```Tsallis_Complexity-Entropy.ipynb``` é ```Renyi_Complexity-Entropy.ipynb``` para gerar planos Complexidade-Entropia.
+Usar os scripts ```Shannon_Complexity-Entropy.ipynb```, ```Tsallis_Complexity-Entropy.ipynb``` e ```Renyi_Complexity-Entropy.ipynb``` para gerar planos Complexidade-Entropia.
 
 
 Entrada: arquivos da pasta ```Probability Distributions```.
@@ -80,7 +80,7 @@ Saída: painel contendo gráficos de barras.
 
 ### 2.3 Obter planos de Complexidade–Entropia
 
-Usar os scripts ```Shannon_Complexity-Entropy.ipynb```, ```Tsallis_Complexity-Entropy.ipynb``` é ```Renyi_Complexity-Entropy.ipynb``` para gerar planos de Complexidade–Entropia das proteínas Spike.
+Usar os scripts ```Shannon_Complexity-Entropy.ipynb```, ```Tsallis_Complexity-Entropy.ipynb``` e ```Renyi_Complexity-Entropy.ipynb``` para gerar planos de Complexidade–Entropia das proteínas Spike.
 
 Entrada: arquivos da pasta ```Probability Distributions```.
 
